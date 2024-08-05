@@ -16,19 +16,19 @@ R Packages: see scripts below
 ## Scripts
 Below are the R scripts and corresponding descriptions that can be used to replicate the data preprocessing and statistical analyses. 
 
-data_preprocessing.R: Preprocessing SWMP data for statistical analyses. 
+**data_preprocessing.R**: Preprocessing SWMP data for statistical analyses. 
 
-data_normality_test.R: Test normality (Shapiro Wilk test) and log-transform SWMP data prior to statistical analyses. 
+**data_normality_test.R**: Test normality (Shapiro Wilk test) and log-transform SWMP data prior to statistical analyses. 
 
-linear_regression.R: Linear regression analysis to determine statistical significance and direction of trends over time. 
+**linear_regression.R**: Linear regression analysis to determine statistical significance and direction of trends over time. 
 
-anova.R: Analysis of Variance (ANOVA) test and Tukey test. Tested spatial differences between three or more SWMP stations. 
+**anova.R**: Analysis of Variance (ANOVA) test and Tukey test. Tested spatial differences between three or more SWMP stations. 
 
-t_tests.R: Student's t-test (normally distributed data) and Welch's t-test (non-normal data). Tested spatial differences between two SWMP stations. 
+**t_tests.R**: Student's t-test (normal data) and Welch's t-test (non-normal data). Tested spatial differences between two SWMP stations. 
 
-pca.R: Principal component analysis (PCA) used to visualize relationships of all datasets.
+**pca.R**: Principal component analysis (PCA) used to visualize relationships of all datasets.
 
-stl.R: Seasonal-trend Decomposition of Time Series by Loess. 
+**stl.R**: Seasonal-trend Decomposition of Time Series by Loess. 
 
 
 
