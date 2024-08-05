@@ -9,8 +9,11 @@ This repository includes the R code scripts used for preprocessing data and perf
 ## Prerequisites
 Before running the scripts in this repository, R Studio and the necessary R packages need to be installed. 
 
-Software: R Studio (code was executed on R Studio Desktop 2020)
-R Packages: see scripts below
+**Software**: R Studio (code was executed on R Studio Desktop 2020)
+
+**R Packages**: see scripts below
+
+**NERRS SWMP Data**: http://nerrscdmo.org/
 
 
 ## Scripts
