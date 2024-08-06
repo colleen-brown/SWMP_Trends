@@ -6,6 +6,7 @@
 # in the 'library()' function below 
 
 library(readxl) # to read Excel files into R
+library(writexl) # save data to Excel file
 library(lubridate) # work with date data 
 
 #-------------------------------------------------------------------------------
@@ -207,7 +208,7 @@ daily_mean_RC_MET <- RC_MET_daily_prep[, c('Short_Date', 'WSpd_mean', 'TotPAR_me
 View(daily_mean_RC_MET)
 
 # option to export data frame to Excel
-write.xlsx(daily_mean_RC_MET, "Output Files/RC_MET_daily.xlsx", sheetName = 'RC MET Daily Mean')
+write_xlsx(daily_mean_RC_MET, "Output Files/RC_MET_daily.xlsx", sheetName = 'RC MET Daily Mean')
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -245,8 +246,8 @@ LC_WQ_mean_annual <- monthly_mean_WQ_LC %>% group_by(year) %>% summarize(across(
 View(LC_WQ_mean_annual)
 
 # EXPORT FILES TO EXCEL 
-write.xlsx(LC_WQ_mean_monthly, "Output Files/LC_WQ_monthly.xlsx", sheetName = 'LC Monthly Mean')
-write.xlsx(LC_WQ_mean_annual, "Output Files/LC_WQ_annual.xlsx", sheetName = 'LC Annual Mean')
+write_xlsx(LC_WQ_mean_monthly, "Output Files/LC_WQ_monthly.xlsx", sheetName = 'LC Monthly Mean')
+write_xlsx(LC_WQ_mean_annual, "Output Files/LC_WQ_annual.xlsx", sheetName = 'LC Annual Mean')
 
 
 #~~~~~~~~~~
@@ -271,8 +272,8 @@ View(RC_WQ_mean_annual)
 
 
 # EXPORT FILES TO EXCEL 
-write.xlsx(as.data.frame(RC_WQ_mean_monthly), "Output Files/RC_WQ_monthly.xlsx", sheetName = 'RC Monthly Mean')
-write.xlsx(RC_mean_annual, "Output Files/RC_WQ_annual", sheetName = 'RC Annual Mean')
+write_xlsx(as.data.frame(RC_WQ_mean_monthly), "Output Files/RC_WQ_monthly.xlsx", sheetName = 'RC Monthly Mean')
+write_xlsx(RC_mean_annual, "Output Files/RC_WQ_annual", sheetName = 'RC Annual Mean')
 
 
 #~~~~~~~~~~~~~~~~
@@ -297,7 +298,7 @@ View(RC_MET_mean_annual)
 
 
 # EXPORT FILES TO EXCEL SHEETS
-write.xlsx(as.data.frame(RC_MET_mean_monthly), "Output Files/RC_MET_monthly.xlsx", sheetName = 'RC MET Monthly Mean')
-write.xlsx(RC_mean_annual, "Output Files/RC_MET_annual.xlsx", sheetName = 'RC MET Annual Mean')
+write_xlsx(as.data.frame(RC_MET_mean_monthly), "Output Files/RC_MET_monthly.xlsx", sheetName = 'RC MET Monthly Mean')
+write_xlsx(RC_mean_annual, "Output Files/RC_MET_annual.xlsx", sheetName = 'RC MET Annual Mean')
 
 
