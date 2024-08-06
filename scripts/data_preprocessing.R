@@ -98,7 +98,7 @@ LC_WQ_clean <- LC_noflag8 %>% select(-one_of('F_Temp', 'F_SpCond', 'F_Sal',
 View(LC_WQ_clean)
 
 # Export "clean" LC water quality data as a .CSV file to work with 
-write.csv(LC_clean, "/SWMP_R_Project/Output_Files/LC_WQ_Clean.csv")
+write.csv(LC_WQ_clean, "/SWMP_R_Project/Output_Files/LC_WQ_Clean.csv")
 
 
 # ~~~~~~~~~~~~
