@@ -31,6 +31,8 @@ Below are the R scripts and corresponding descriptions that can be used to repli
 
 **pca.R**: Principal component analysis (PCA) used to visualize relationships of all datasets.
 
+**correlation_matrix.R**: Correlation matrix and significance test between variables for each SWMP station. 
+
 **stl.R**: Seasonal-trend Decomposition of Time Series by Loess. 
 
 
