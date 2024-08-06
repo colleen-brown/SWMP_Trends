@@ -11,7 +11,7 @@ library(factoextra) # for eigenvalues
 
 #-------------------------------------------------------------------------------
 # IMPORT COMPOSITE DATA SET: (WQ, MET, NUT) for stations LC - RC - CMS -> 'ICW'
-
+# Note, ICW df has monthly mean values of each parameter
 # Example if CSV file:
 ICW <- read.csv("Input_Files/ICW.csv") # function available in base R
 View(ICW)
