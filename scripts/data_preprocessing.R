@@ -217,7 +217,7 @@ write.xlsx(daily_mean_RC_MET, "Output Files/RC_MET_daily.xlsx", sheetName = 'RC 
 # You can calculate these easily from the daily averages in Excel using Pivot Tables
 # if that is easier for you. If you would like to use R, below is example code
 # adapted from materials developed by Earth Lab that will easily allow you to 
-# achieve these calculations this as well.
+# achieve these calculations as well.
 
 # Link to the Earth Lab Lesson & Code:
 # https://www.earthdatascience.org/courses/earth-analytics/time-series-data/summarize-time-series-by-month-in-r/
