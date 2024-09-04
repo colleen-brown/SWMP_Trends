@@ -17,7 +17,7 @@ Before running the scripts in this repository, R Studio and the necessary R pack
 
 
 ## Scripts
-Below are the R scripts and corresponding descriptions that can be used to replicate the data preprocessing and statistical analyses. 
+Below are the R scripts provided in the folder labeled 'Scripts' and the corresponding descriptions that can be used to replicate the data preprocessing and statistical analyses. 
 
 **data_preprocessing.R**: Preprocessing SWMP data for statistical analyses. 
 
