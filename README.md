@@ -1,5 +1,5 @@
 # SWMP_Trends
-Data and code to reproduce the statistical analyses in "20-year water quality analysis reveals spatial variability and long-term changes at North Carolina’s Masonboro Island National Estuarine Research Reserve", https://doi.org/10.1016/j.ecss.2024.108937.  
+Data and code to reproduce the statistical analyses in "20-year water quality analysis reveals spatial variability and long-term changes at North Carolina’s Masonboro Island National Estuarine Research Reserve" by Brown et al. 2024, https://doi.org/10.1016/j.ecss.2024.108937.  
 
 
 ## Overview
